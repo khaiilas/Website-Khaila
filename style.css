@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: rgb(252, 252, 246);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #353233;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 7%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid #6d7242;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #ffffff;
+    color: #6d7242;
+    border-radius: 5px;
+}
+
+.welcome{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: italic;
+    font-weight: bold;
+    color: #333;
+
+}
+
+/* Tabel */ 
+table {
+    width: 100%; /* Lebar tabel memenuhi kontainer */
+    border-collapse: collapse; /* Menggabungkan garis-garis tabel */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+   /* Gaya header tabel */
+table th {
+    background-color: #6d7242;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+   /* Gaya baris tabel */
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Warna latar untuk baris genap */
+}
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Warna latar saat hover */
+}
+
+
+/* Bagian CV */
+.CV{
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.CV h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.CV .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.CV .content .text p {
+    background-color: #f4f4f4;
+    border-left: 4px solid #6d7242;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.Foto-Profil{
+    text-align: right;
+    max-width: 100%;
+    width: 260px;
+    height: 240px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
